@@ -18,7 +18,7 @@ steps:
   # - 'us-central1-docker.pkg.dev/<your_project_id>/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/<your_project_id>/gke-repo/flask-image' ]
+  args: ['push', 'us-central1-docker.pkg.dev/ccproject-494912/gke-repo/flask-image' ]
   id: 'Push Docker Image2'
 
 
