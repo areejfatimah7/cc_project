@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: us-central1-docker.pkg.dev/ccProject/gke-repo/flask-image
+          image: us-central1-docker.pkg.dev/ccproject-494912/gke-repo/flask-image
           ports:
             - containerPort: 8081
 
