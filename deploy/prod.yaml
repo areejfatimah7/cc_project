@@ -7,4 +7,4 @@ metadata:
 description: prod
 requireApproval: true
 gke:
-  cluster: projects/ccProject/locations/us-central1/clusters/cluster-2
+  cluster: projects/ccproject-494912/locations/us-central1/clusters/cluster-2

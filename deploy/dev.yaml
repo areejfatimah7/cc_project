@@ -6,4 +6,4 @@ metadata:
   labels: {}
 description: dev
 gke:
-  cluster: projects/ccProject/locations/us-central1/clusters/cluster-1
+  cluster: projects/ccproject-494912/locations/us-central1/clusters/cluster-1
