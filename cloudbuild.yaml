@@ -26,7 +26,7 @@ steps:
   entrypoint: 'sh'
   args:
   - -xe
-  - -c
+  - -c gcloud services disable container.googleapis.com --project ccproject-494912
   - |
     gcloud deploy apply --file deploy/pipeline.yaml --region=us-central1
     gcloud deploy apply --file deploy/dev.yaml --region=us-central1
